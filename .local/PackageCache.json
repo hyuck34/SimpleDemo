@@ -2,6 +2,39 @@
   "Packages": [
     {
       "Package": {
+        "Id": "UiPath.ComputerVision.LocalServer",
+        "Version": "22.7.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\KHOH\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6\\lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "C:\\Users\\KHOH\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "C:\\Users\\KHOH\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\KHOH\\.nuget\\packages\\nito.asyncex.context\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Context.dll",
+        "C:\\Users\\KHOH\\.nuget\\packages\\nito.asyncex.coordination\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Coordination.dll",
+        "C:\\Users\\KHOH\\.nuget\\packages\\nito.asyncex.interop.waithandles\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Interop.WaitHandles.dll",
+        "C:\\Users\\KHOH\\.nuget\\packages\\nito.asyncex.oop\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Oop.dll",
+        "C:\\Users\\KHOH\\.nuget\\packages\\nito.asyncex.tasks\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Tasks.dll",
+        "C:\\Users\\KHOH\\.nuget\\packages\\nito.cancellation\\1.1.0\\lib/netstandard2.0/Nito.Cancellation.dll",
+        "C:\\Users\\KHOH\\.nuget\\packages\\nito.collections.deque\\1.1.0\\lib/netstandard2.0/Nito.Collections.Deque.dll",
+        "C:\\Users\\KHOH\\.nuget\\packages\\nito.disposables\\2.2.0\\lib/net461/Nito.Disposables.dll",
+        "C:\\Users\\KHOH\\.nuget\\packages\\system.buffers\\4.5.1\\lib/net461/System.Buffers.dll",
+        "C:\\Users\\KHOH\\.nuget\\packages\\system.collections.immutable\\5.0.0\\lib/net461/System.Collections.Immutable.dll",
+        "C:\\Users\\KHOH\\.nuget\\packages\\system.diagnostics.process\\4.3.0\\runtimes/win/lib/net461/System.Diagnostics.Process.dll",
+        "C:\\Users\\KHOH\\.nuget\\packages\\system.io.pipes.accesscontrol\\4.5.1\\runtimes/win/lib/net461/System.IO.Pipes.AccessControl.dll",
+        "C:\\Users\\KHOH\\.nuget\\packages\\system.memory\\4.5.4\\lib/net461/System.Memory.dll",
+        "C:\\Users\\KHOH\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\lib/net46/System.Numerics.Vectors.dll",
+        "C:\\Users\\KHOH\\.nuget\\packages\\system.reflection.dispatchproxy\\4.7.1\\lib/net461/System.Reflection.DispatchProxy.dll",
+        "C:\\Users\\KHOH\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "C:\\Users\\KHOH\\.nuget\\packages\\system.security.accesscontrol\\4.5.0\\runtimes/win/lib/net461/System.Security.AccessControl.dll",
+        "C:\\Users\\KHOH\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\runtimes/win/lib/net461/System.Security.Principal.Windows.dll",
+        "C:\\Users\\KHOH\\.nuget\\packages\\uipath.computervision.localserver\\22.7.2\\lib/net461/UiPath.CVLocalServer.Core.dll",
+        "C:\\Users\\KHOH\\.nuget\\packages\\uipath.computervision.localserver\\22.7.2\\lib/net461/UiPath.CVLocalServer.dll",
+        "C:\\Users\\KHOH\\.nuget\\packages\\uipath.coreipc\\2.0.1\\lib/net461/UiPath.CoreIpc.dll"
+      ],
+      "Path": "C:\\Users\\KHOH\\.nuget\\packages\\uipath.computervision.localserver\\22.7.2"
+    },
+    {
+      "Package": {
         "Id": "UiPath.Excel.Activities",
         "Version": "2.12.3"
       },
@@ -94,6 +127,18 @@
         "C:\\Users\\KHOH\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/net461/TelemetryClient.dll"
       ],
       "Path": "C:\\Users\\KHOH\\.nuget\\packages\\uipath.mail.activities\\1.15.2"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Python.Activities",
+        "Version": "1.6.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\KHOH\\.nuget\\packages\\uipath.python.activities\\1.6.0\\lib/net461/UiPath.Python.Activities.Design.dll",
+        "C:\\Users\\KHOH\\.nuget\\packages\\uipath.python.activities\\1.6.0\\lib/net461/UiPath.Python.Activities.dll",
+        "C:\\Users\\KHOH\\.nuget\\packages\\uipath.python.activities\\1.6.0\\lib/net461/UiPath.Python.dll"
+      ],
+      "Path": "C:\\Users\\KHOH\\.nuget\\packages\\uipath.python.activities\\1.6.0"
     },
     {
       "Package": {
@@ -199,51 +244,6 @@
         "C:\\Users\\KHOH\\.nuget\\packages\\uipath.vision\\3.3.0\\lib/net461/UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\KHOH\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.Python.Activities",
-        "Version": "1.6.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\KHOH\\.nuget\\packages\\uipath.python.activities\\1.6.0\\lib/net461/UiPath.Python.Activities.Design.dll",
-        "C:\\Users\\KHOH\\.nuget\\packages\\uipath.python.activities\\1.6.0\\lib/net461/UiPath.Python.Activities.dll",
-        "C:\\Users\\KHOH\\.nuget\\packages\\uipath.python.activities\\1.6.0\\lib/net461/UiPath.Python.dll"
-      ],
-      "Path": "C:\\Users\\KHOH\\.nuget\\packages\\uipath.python.activities\\1.6.0"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.ComputerVision.LocalServer",
-        "Version": "22.7.2"
-      },
-      "Assemblies": [
-        "C:\\Users\\KHOH\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6\\lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "C:\\Users\\KHOH\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
-        "C:\\Users\\KHOH\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/net45/Newtonsoft.Json.dll",
-        "C:\\Users\\KHOH\\.nuget\\packages\\nito.asyncex.context\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Context.dll",
-        "C:\\Users\\KHOH\\.nuget\\packages\\nito.asyncex.coordination\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Coordination.dll",
-        "C:\\Users\\KHOH\\.nuget\\packages\\nito.asyncex.interop.waithandles\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Interop.WaitHandles.dll",
-        "C:\\Users\\KHOH\\.nuget\\packages\\nito.asyncex.oop\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Oop.dll",
-        "C:\\Users\\KHOH\\.nuget\\packages\\nito.asyncex.tasks\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Tasks.dll",
-        "C:\\Users\\KHOH\\.nuget\\packages\\nito.cancellation\\1.1.0\\lib/netstandard2.0/Nito.Cancellation.dll",
-        "C:\\Users\\KHOH\\.nuget\\packages\\nito.collections.deque\\1.1.0\\lib/netstandard2.0/Nito.Collections.Deque.dll",
-        "C:\\Users\\KHOH\\.nuget\\packages\\nito.disposables\\2.2.0\\lib/net461/Nito.Disposables.dll",
-        "C:\\Users\\KHOH\\.nuget\\packages\\system.buffers\\4.5.1\\lib/net461/System.Buffers.dll",
-        "C:\\Users\\KHOH\\.nuget\\packages\\system.collections.immutable\\5.0.0\\lib/net461/System.Collections.Immutable.dll",
-        "C:\\Users\\KHOH\\.nuget\\packages\\system.diagnostics.process\\4.3.0\\runtimes/win/lib/net461/System.Diagnostics.Process.dll",
-        "C:\\Users\\KHOH\\.nuget\\packages\\system.io.pipes.accesscontrol\\4.5.1\\runtimes/win/lib/net461/System.IO.Pipes.AccessControl.dll",
-        "C:\\Users\\KHOH\\.nuget\\packages\\system.memory\\4.5.4\\lib/net461/System.Memory.dll",
-        "C:\\Users\\KHOH\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\lib/net46/System.Numerics.Vectors.dll",
-        "C:\\Users\\KHOH\\.nuget\\packages\\system.reflection.dispatchproxy\\4.7.1\\lib/net461/System.Reflection.DispatchProxy.dll",
-        "C:\\Users\\KHOH\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
-        "C:\\Users\\KHOH\\.nuget\\packages\\system.security.accesscontrol\\4.5.0\\runtimes/win/lib/net461/System.Security.AccessControl.dll",
-        "C:\\Users\\KHOH\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\runtimes/win/lib/net461/System.Security.Principal.Windows.dll",
-        "C:\\Users\\KHOH\\.nuget\\packages\\uipath.computervision.localserver\\22.7.2\\lib/net461/UiPath.CVLocalServer.Core.dll",
-        "C:\\Users\\KHOH\\.nuget\\packages\\uipath.computervision.localserver\\22.7.2\\lib/net461/UiPath.CVLocalServer.dll",
-        "C:\\Users\\KHOH\\.nuget\\packages\\uipath.coreipc\\2.0.1\\lib/net461/UiPath.CoreIpc.dll"
-      ],
-      "Path": "C:\\Users\\KHOH\\.nuget\\packages\\uipath.computervision.localserver\\22.7.2"
     }
   ],
   "Conflicts": [],

@@ -9409,8 +9409,8 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "빈프로세스",
-      "projectName": "빈프로세스",
+      "projectUniqueName": "SimpleDemo",
+      "projectName": "SimpleDemo",
       "projectPath": "C:\\Users\\KHOH\\Documents\\GitHub\\SimpleDemo\\.local",
       "packagesPath": "C:\\Users\\KHOH\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\KHOH\\Documents\\GitHub\\SimpleDemo\\.local"

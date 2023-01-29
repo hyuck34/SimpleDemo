@@ -1,0 +1,187 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="MouseScrollDemo" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="879.2,1677.6" sap2010:WorkflowViewState.IdRef="MouseScrollDemo_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Python.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Python</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="MouseScrollDemo" sap:VirtualizedContainerService.HintSize="552,1612.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="510.4,640" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="무시된 액티비티" sap:VirtualizedContainerService.HintSize="475.2,561.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Browser Chrome: 입찰공고 | 서울특별시" sap:VirtualizedContainerService.HintSize="433.6,468.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="8e921712-ab27-4e51-8460-ed60fc4aba63" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="375.2,252" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NSelectItem Item="{x:Null}" DisplayName="Select Item '선택'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NSelectItem_1" ScopeIdentifier="8e921712-ab27-4e51-8460-ed60fc4aba63" Version="V1">
+                    <uix:NSelectItem.Items>
+                      <scg:List x:TypeArguments="x:String" Capacity="4">
+                        <x:String>선택</x:String>
+                        <x:String>제목</x:String>
+                        <x:String>담당부서</x:String>
+                        <x:String>작성자</x:String>
+                      </scg:List>
+                    </uix:NSelectItem.Items>
+                    <uix:NSelectItem.Target>
+                      <uix:TargetAnchorable BrowserURL="https://www.seoul.go.kr/news/news_tender.do#list/1" DesignTimeRectangle="1250, 672, 110, 38" ElementType="DropDown" FriendlyName="'선택'" FullSelectorArgument="&lt;webctrl id='srchKey' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='srchKey' tag='SELECT' type='' class='sib-select-type' aaname='조건을 선택하세요' /&gt;" Guid="6023eb0b-ba43-4ac5-ada6-11a9adf83aae" InformativeScreenshot="365cbe0a9d302bfff9e81ef4836066bb.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='입찰공고 | 서울특별시' /&gt;" SearchSteps="FuzzySelector" Visibility="Interactive" />
+                    </uix:NSelectItem.Target>
+                  </uix:NSelectItem>
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAR+SURBVFhHxdZtbFNVHAbw/6ayrh0rgziNJiCJcb7gtrZ0XRkzGxtsbWWBEGckIogQg2xEwqLxBSabC9N2fbmFzSlETdQQBPxAoh/MnGOumwgoGwga0MSg8SUaY+K7sT7/u3uau3tPS2dI+PBLu/X0Ps8999zTS8lk8opKvalU/FLl/QHqCNRQIt9D7xVVppUocFDIsY5ywqeJQqeIgp+w2eDW3rMC8f6yF2BjtnJqXhUkin8uAnOhHRrABvNALXE5C1wl3g/ZK9TX27a+RRQ7K0qUwSDcA7WwHCzTKtDplxawwR6YgCFYAzRqc9DeklVk6T5B1DMuSrwLW2A1tMKd2Rd4MUDbV9TSqGVKASsMQNKgBuhYfiktW9NHpJwTBTrgTXga4tCedQFXb4BWPtlAAzjw4KxUgTYt0Og45I1iLQQdDxJFziBcXZAPwTjshE54JesCzNUXoH53NY1Y1VmwwHktUGb9kN1NR66vJfvOYVyGCS6wEb6AKCiwb1oFnC8E6N62ZXR0podn4TqE/GII1evlxfjOtXfR7PYhorBa4ClIwtfwMpyfVgHIdaDErqU1NJbnyUMILzxZOGvi2zFaej/l8CKc3BMGtAK/whgcy6aADVbDCJxy7/Y/5o356SVXNd8RTQj61xDM9h8tdNMHM11U3nJA3Io18A9wAfYDXHIGyuAkJPUW9gaUxWEfvbpgMSWsnrUIHIYf4SI8myhwzhic5SEf3wFRNbwQzmrBwp9wJFOBeviZA2WcfYGWul2NdHj+IrE3FCPU/qG1jPbP9ZGzFWce/4zD8+GQFmrUna7ADfCTCJP4HT7GenAs39FAB26uoo/ynJTA5tO9cAMVdY6Ie/8WGNEF6v0NLlmBHHhNC8pkAjbjzrAseb6enqlfSd6Nb0yu9shpPuuHga+zLJx1QSpXX+ABXYjeVxCHYd3/uryKr6Bit48s8UO43hd4td+KAx/XBcl8CWl/jFp1AYynezvMAf48FzbDb/BtlVI/9/ZoC6b7U57yR+B7kIUKF8EFPF5awAo7oB82QTnw/41KKxXflmql2j8v0oWDnWvWAjLh9bAA1HAmK5CRV2mkRcpSqlKW4O9GKom20dXBsToKjv+FA8pChbdhDqTC2TQK+BBaRxVKE5XG1qvBhT2HcZAzMyg4cQIHk4WyP2AbTAkWsiqAhaae9fxIB+WHBvFF3lb5mqvXfSvIghlfb94B1TCZrArwmd8YjuILvLGkflpZMXwHsnDe6e4GMVbqkgX4WpdEt2Ewn23qyUbwgiycPQrG8SYZC/C0u2LNdE0ogcF4yjUfYAPIwi8Ab0ay70yRtoBXacCrj+w9BzEw9WBpFAJZAf6tl403SVNgcsUXh/sxSP1BSScCsgKPg2y8ibRAlVJLN0U6MYDPPLXgZJ4DWQF1n8+GqQBf9zuimyhHHWBadEYrQFbg/18CZ+w+7GxpF51REXwDxgIHQTbexFSgLLZO+zDj1OuFwVjgCZCNNZEUWIvpP4kPsy7Aj1uvgwh/H3iDko01MRW4MpL0H9UQM0PB2WBoAAAAAElFTkSuQmCC" InformativeScreenshot="710dffad23938028dc10e0a8aa16a6fb.png" Selector="&lt;html app='chrome.exe' title='입찰공고 | 서울특별시' /&gt;" Url="https://www.seoul.go.kr/news/news_tender.do#list/1" />
+            </uix:NApplicationCard.TargetApp>
+          </uix:NApplicationCard>
+        </Sequence>
+      </ui:CommentOut.Body>
+    </ui:CommentOut>
+    <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Browser Chrome: Booking.com : 호텔: 제주도 . 지금 바로 예약하세요!" sap:VirtualizedContainerService.HintSize="510.4,840" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="6017437d-93c0-40c4-8218-935925a4bb03" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="375.2,623.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" sap:VirtualizedContainerService.HintSize="333.6,238.4" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="10" Version="V1">
+              <uix:NMouseScroll.SearchedElement>
+                <uix:SearchedElement>
+                  <uix:SearchedElement.Target>
+                    <uix:TargetAnchorable BrowserURL="https://www.booking.com/searchresults.ko.html?ss=%EC%A0%9C%EC%A3%BC%EB%8F%84&amp;ssne=%EC%A0%9C%EC%A3%BC%EB%8F%84&amp;ssne_untouched=%EC%A0%9C%EC%A3%BC%EB%8F%84&amp;label=gen173nr-1FCAEoggI46AdIM1gEaH2IAQGYARe4ARfIAQzYAQHoAQH4AQuIAgGoAgO4Ao_ZupoGwAIB0gIkYWQ2ZjExNDMtZGYzNi00OTExLTg1NTAtZTk1NWUyZDE1ZTgw2AIG4AIB&amp;sid=a173ad017a42a79767a69c10bab598fb&amp;aid=304142&amp;lang=ko&amp;sb=1&amp;src_elem=sb&amp;src=searchresults&amp;dest_id=4170&amp;dest_type=region&amp;checkin=2022-11-10&amp;checkout=2022-11-13&amp;group_adults=2&amp;no_rooms=1&amp;group_children=2&amp;age=13&amp;age=16&amp;sb_travel_purpose=leisure" DesignTimeRectangle="920, 421, 157, 33" ElementType="Text" FriendlyName="'빨간풍차펜션'" FullSelectorArgument="&lt;webctrl aaname='빨간풍차펜션 ' parentid='search_results_table' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='빨간풍차펜션 ' parentid='search_results_table' tag='DIV' type='' class='fcab3ed991 a23c043802' check:innerText='빨간풍차펜션' /&gt;" Guid="c41de83b-51fa-40bd-90c2-3b724901453a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAKEAAAAlCAYAAAAqcIl4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAUQSURBVHhe7ZpNa9tIGID9M3zNz8jVxxx99DXHnooIlCYUQrP4YnJYCoViSi+mLCEQAmXxoRCKV9jerCgmCDc1bnFTjAlFOFAnJZh3R9bIevU9I+sjVueB9xBpZiTPPJp5NUoBBIKMERIKMkdIKMgcIaEgc4SEgswREgoyR0goyBwhoSBz1k5C+c0HKDw24qBHDwrWmtglTFoSvvaHcEDLRo43Q9oWC/h6MjQm9LAHSfXTuCkv2y03yQ1MLqBM/y5UL2BMy8WJ65qc2CVEN2x0zAQaVfoD9MFwnUedSX8gU+fijgkLSQGFVtP5rSTsKcsyYWEOfiwS2sZHAZke9iP/Ev7ZB41W0xESekcuJXSFQ0JXJCTh1ul3WsmAT8IE4RAEhzlI6yth8IO9PhIGMf8CtadmGzLUr+hxSuT28YB6zm64c8Of/lQkjICQkDSBOxcHa0ffdrpQNOsdqralWCfy4IUNBu9gpSihVdYUAqVJjnuNRcKvPSiZdR534f0dPb4gRQmNjlktJ8TBJIzWh0eSWadF6vykJyy4JIwoij0YZsUlqL9ifDt2SziyVovXA7toKKJKODy1RNZj91/3OGASywlTl3BGnrA9q3zx1SXc0lMYv/Y9ZcmthGg2ClihIkk4G8DuMh2i8bwHwzk9n9uc8EqFR0jAwh7p7Bk95+BhS4hmKF3CgBHn6afhSYuWTVrCKbkv81r22CTXMSaFvEk410BtdqG0XIJJSG0yePe0gBsuCdPmhqQT6J6kjv8y5v873DOotdx14d2NfsQhISJ6TjgF9aRt5eMktqqy7e/KyTciYl4kvLsG5ewcKk9QfT12iIBXv2ghb1ja9x/g1SLsodLO2rbyxfrAM6XQiSaheS5mCe8n8O51yyacMfO5Z8aNqgLvx/aHK96cMAW0f7qwgX6UGRvVj6Dc+M+AJg9Xwu9Qf+6s458XhksYPOO4ow3H17wS/oRxR4HyjtmGEZv1S9DMHHA+huND+3k9to5GtEDSEgbNfAzhPWiOp0tqgdQcWT86hIcqofYBbS2hKNZUz9kn/HfwSkjkJRfinQlv1Y+whdKh7VN9yXVA0iblL7Q075EJA43XGkpIIE9X41CG7aMBBKR/nrBIyATLMsXKRIUKGsgimVlsuVTT3Xr8Ehrt8Eqoo4tY3u9C47NzVxZzD9rnC5D23Tn7ekq4ApElnJOl51Mf6q/aUHpml2QRRKIS6WDptA/KdXBeamP2Deo13A55ebgmDxk+RqLydzqfH6NI6ATfG4tUyUrIDd4nY+xcvI3iSLK9iDR44z5IRLzldRii9LKP9sZ8mH2B2h+4nr7BPqXnyEyGt50WbV6ASvPeqBKGDXj+JExjJkxaQttXGL7w2zA3lqYebNsS+hbsdsibAebHJew6RCw8I/kU8TApCV0ICWk7QXBKyIvtE9SODLWzEQxvpnDrnOXupqBdjeD4rYze3t3/QGFAJOycw6ZZjrxcHfznk0/py/Xy7bIFtU/JzoRxwCvhquReQv4OZU8pzIT+OGRvc7ER3OxCBW1rCAkt2CVc9Q3Sj4QlxIMWZSb02+dbFSGhRaIzIZO4WELuYPhU5/GCwBrW99L4iUNC/mB7qPC98Qf/59P8S6jzYwA1tMSyRPntgHkDPQpCQovfQ8IFv0D7OoDG0Tls77dg0/GpamOvBaXDc3jRHICqcewTRkRIaBEsoUCQAkJCQeYICQWZIyQUZI6QUJAxAP8DliSlR/WNQm8AAAAASUVORK5CYII=" InformativeScreenshot="493eef059a5dd6fe7f928a0a98406492.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Booking.com : 호텔: 제주도 . 지금 바로 예약하세요!' /&gt;" SearchSteps="FuzzySelector" Visibility="Interactive" />
+                  </uix:SearchedElement.Target>
+                  <uix:SearchedElement.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:SearchedElement.Timeout>
+                </uix:SearchedElement>
+              </uix:NMouseScroll.SearchedElement>
+            </uix:NMouseScroll>
+            <uix:NClick ClickType="Single" DisplayName="Click '빨간풍차펜션'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6017437d-93c0-40c4-8218-935925a4bb03" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.booking.com/searchresults.ko.html?ss=%EC%A0%9C%EC%A3%BC%EB%8F%84&amp;ssne=%EC%A0%9C%EC%A3%BC%EB%8F%84&amp;ssne_untouched=%EC%A0%9C%EC%A3%BC%EB%8F%84&amp;label=gen173nr-1FCAEoggI46AdIM1gEaH2IAQGYARe4ARfIAQzYAQHoAQH4AQuIAgGoAgO4Ao_ZupoGwAIB0gIkYWQ2ZjExNDMtZGYzNi00OTExLTg1NTAtZTk1NWUyZDE1ZTgw2AIG4AIB&amp;sid=a173ad017a42a79767a69c10bab598fb&amp;aid=304142&amp;lang=ko&amp;sb=1&amp;src_elem=sb&amp;src=searchresults&amp;dest_id=4170&amp;dest_type=region&amp;checkin=2022-11-10&amp;checkout=2022-11-13&amp;group_adults=2&amp;no_rooms=1&amp;group_children=2&amp;age=13&amp;age=16&amp;sb_travel_purpose=leisure" DesignTimeRectangle="920, 421, 157, 33" ElementType="Text" FriendlyName="'빨간풍차펜션'" FullSelectorArgument="&lt;webctrl aaname='빨간풍차펜션 ' parentid='search_results_table' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='빨간풍차펜션 ' parentid='search_results_table' tag='DIV' type='' class='fcab3ed991 a23c043802' check:innerText='빨간풍차펜션' /&gt;" Guid="14fc2f86-bc8f-4e5d-bc7a-12e6cf9831af" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAKEAAAAlCAYAAAAqcIl4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAUQSURBVHhe7ZpNa9tIGID9M3zNz8jVxxx99DXHnooIlCYUQrP4YnJYCoViSi+mLCEQAmXxoRCKV9jerCgmCDc1bnFTjAlFOFAnJZh3R9bIevU9I+sjVueB9xBpZiTPPJp5NUoBBIKMERIKMkdIKMgcIaEgc4SEgswREgoyR0goyBwhoSBz1k5C+c0HKDw24qBHDwrWmtglTFoSvvaHcEDLRo43Q9oWC/h6MjQm9LAHSfXTuCkv2y03yQ1MLqBM/y5UL2BMy8WJ65qc2CVEN2x0zAQaVfoD9MFwnUedSX8gU+fijgkLSQGFVtP5rSTsKcsyYWEOfiwS2sZHAZke9iP/Ev7ZB41W0xESekcuJXSFQ0JXJCTh1ul3WsmAT8IE4RAEhzlI6yth8IO9PhIGMf8CtadmGzLUr+hxSuT28YB6zm64c8Of/lQkjICQkDSBOxcHa0ffdrpQNOsdqralWCfy4IUNBu9gpSihVdYUAqVJjnuNRcKvPSiZdR534f0dPb4gRQmNjlktJ8TBJIzWh0eSWadF6vykJyy4JIwoij0YZsUlqL9ifDt2SziyVovXA7toKKJKODy1RNZj91/3OGASywlTl3BGnrA9q3zx1SXc0lMYv/Y9ZcmthGg2ClihIkk4G8DuMh2i8bwHwzk9n9uc8EqFR0jAwh7p7Bk95+BhS4hmKF3CgBHn6afhSYuWTVrCKbkv81r22CTXMSaFvEk410BtdqG0XIJJSG0yePe0gBsuCdPmhqQT6J6kjv8y5v873DOotdx14d2NfsQhISJ6TjgF9aRt5eMktqqy7e/KyTciYl4kvLsG5ewcKk9QfT12iIBXv2ghb1ja9x/g1SLsodLO2rbyxfrAM6XQiSaheS5mCe8n8O51yyacMfO5Z8aNqgLvx/aHK96cMAW0f7qwgX6UGRvVj6Dc+M+AJg9Xwu9Qf+6s458XhksYPOO4ow3H17wS/oRxR4HyjtmGEZv1S9DMHHA+huND+3k9to5GtEDSEgbNfAzhPWiOp0tqgdQcWT86hIcqofYBbS2hKNZUz9kn/HfwSkjkJRfinQlv1Y+whdKh7VN9yXVA0iblL7Q075EJA43XGkpIIE9X41CG7aMBBKR/nrBIyATLMsXKRIUKGsgimVlsuVTT3Xr8Ehrt8Eqoo4tY3u9C47NzVxZzD9rnC5D23Tn7ekq4ApElnJOl51Mf6q/aUHpml2QRRKIS6WDptA/KdXBeamP2Deo13A55ebgmDxk+RqLydzqfH6NI6ATfG4tUyUrIDd4nY+xcvI3iSLK9iDR44z5IRLzldRii9LKP9sZ8mH2B2h+4nr7BPqXnyEyGt50WbV6ASvPeqBKGDXj+JExjJkxaQttXGL7w2zA3lqYebNsS+hbsdsibAebHJew6RCw8I/kU8TApCV0ICWk7QXBKyIvtE9SODLWzEQxvpnDrnOXupqBdjeD4rYze3t3/QGFAJOycw6ZZjrxcHfznk0/py/Xy7bIFtU/JzoRxwCvhquReQv4OZU8pzIT+OGRvc7ER3OxCBW1rCAkt2CVc9Q3Sj4QlxIMWZSb02+dbFSGhRaIzIZO4WELuYPhU5/GCwBrW99L4iUNC/mB7qPC98Qf/59P8S6jzYwA1tMSyRPntgHkDPQpCQovfQ8IFv0D7OoDG0Tls77dg0/GpamOvBaXDc3jRHICqcewTRkRIaBEsoUCQAkJCQeYICQWZIyQUZI6QUJAxAP8DliSlR/WNQm8AAAAASUVORK5CYII=" InformativeScreenshot="1b6e7be3203497388a7f263ea658e615.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Booking.com : 호텔: 제주도 . 지금 바로 예약하세요!' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="333.6,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+              <ui:CommentOut.Body>
+                <Sequence DisplayName="무시된 액티비티" sap:VirtualizedContainerService.HintSize="375.2,331.2" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" sap:VirtualizedContainerService.HintSize="333.6,238.4" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="10" Version="V1">
+                    <uix:NMouseScroll.SearchedElement>
+                      <uix:SearchedElement>
+                        <uix:SearchedElement.Target>
+                          <uix:TargetAnchorable BrowserURL="https://www.booking.com/searchresults.ko.html?ss=%EC%A0%9C%EC%A3%BC%EB%8F%84&amp;ssne=%EC%A0%9C%EC%A3%BC%EB%8F%84&amp;ssne_untouched=%EC%A0%9C%EC%A3%BC%EB%8F%84&amp;label=gen173nr-1FCAEoggI46AdIM1gEaH2IAQGYARe4ARfIAQzYAQHoAQH4AQuIAgGoAgO4Ao_ZupoGwAIB0gIkYWQ2ZjExNDMtZGYzNi00OTExLTg1NTAtZTk1NWUyZDE1ZTgw2AIG4AIB&amp;sid=a173ad017a42a79767a69c10bab598fb&amp;aid=304142&amp;lang=ko&amp;sb=1&amp;src_elem=sb&amp;src=searchresults&amp;dest_id=4170&amp;dest_type=region&amp;checkin=2022-11-10&amp;checkout=2022-11-13&amp;group_adults=2&amp;no_rooms=1&amp;group_children=2&amp;age=13&amp;age=16&amp;sb_travel_purpose=leisure" DesignTimeRectangle="629, 659, 1018, 25" ElementType="Text" FriendlyName="'제주도: 검색된 숙소 343개'" FullSelectorArgument="&lt;webctrl aaname='제주도: 검색된 숙소 *' parentid='search_results_table' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='제주도: 검색된 숙소 *' parentid='search_results_table' tag='DIV' type='' class='d8f77e681c' check:text='제주도: 검색된 숙소 *' /&gt;" Guid="e85548ce-5e9c-4c00-b617-47d8ead068a5" ImageBase64="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" InformativeScreenshot="c68d95fc2d8a6c4d08cb7d84d22d9759.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Booking.com : 호텔: 제주도 . 지금 바로 예약하세요!' /&gt;" SearchSteps="FuzzySelector" Visibility="Interactive" />
+                        </uix:SearchedElement.Target>
+                        <uix:SearchedElement.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:SearchedElement.Timeout>
+                      </uix:SearchedElement>
+                    </uix:NMouseScroll.SearchedElement>
+                  </uix:NMouseScroll>
+                </Sequence>
+              </ui:CommentOut.Body>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:CommentOut>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACZSURBVDhPYwABkZCZ/xlMG0jCYD3kaoZhiCFYJEjCyJwJy0/833PqLhyD+ARdiMz58+cvVoysBgMjc9A1wPgglyCrQ8HIHHQDQN4A8R0yFsDFMDAyB2YAOkZWg4GROdg0gzDJLoDxQX4H8ckOA5gBoLAA8UFRKj3tChjD1BDlBZgLYJpJMgDZ+QRdQBbGKkgkpigzQTQzMAAAgK8pu3KDGtoAAAAASUVORK5CYII=" InformativeScreenshot="c54f9d364760a3ba0acd122e6fff7892.png" Selector="&lt;html app='chrome.exe' title='Booking.com : 호텔: 제주도 . 지금 바로 예약하세요!' /&gt;" Url="https://www.booking.com/searchresults.ko.html?ss=%EC%A0%9C%EC%A3%BC%EB%8F%84&amp;ssne=%EC%A0%9C%EC%A3%BC%EB%8F%84&amp;ssne_untouched=%EC%A0%9C%EC%A3%BC%EB%8F%84&amp;label=gen173nr-1FCAEoggI46AdIM1gEaH2IAQGYARe4ARfIAQzYAQHoAQH4AQuIAgGoAgO4Ao_ZupoGwAIB0gIkYWQ2ZjExNDMtZGYzNi00OTExLTg1NTAtZTk1NWUyZDE1ZTgw2AIG4AIB&amp;sid=a173ad017a42a79767a69c10bab598fb&amp;aid=304142&amp;lang=ko&amp;sb=1&amp;src_elem=sb&amp;src=searchresults&amp;dest_id=4170&amp;dest_type=region&amp;checkin=2022-11-10&amp;checkout=2022-11-13&amp;group_adults=2&amp;no_rooms=1&amp;group_children=2&amp;age=13&amp;age=16&amp;sb_travel_purpose=leisure" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

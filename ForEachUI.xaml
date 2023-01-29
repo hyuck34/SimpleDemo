@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="ForEachUI" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1085.6,988.8" sap2010:WorkflowViewState.IdRef="ForEachUI_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="ForEachUI" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="573.6,1276.8" sap2010:WorkflowViewState.IdRef="ForEachUI_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uuam="clr-namespace:UiPath.UIAutomationNext.Activities.Models;assembly=UiPath.UIAutomationNext.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -84,7 +84,7 @@
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ForEachUI" sap:VirtualizedContainerService.HintSize="550.4,924" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ForEachUI" sap:VirtualizedContainerService.HintSize="747.2,1500.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
     </Sequence.Variables>
@@ -93,49 +93,161 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="508.8,831.2" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" WorkbookPath="제주호텔예약.xlsx">
+    <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="705.6,1408" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" WorkbookPath="입찰공고.xlsx">
       <ueab:ExcelApplicationCard.Body>
         <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="475.2,561.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="672,1138.4" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Browser Chrome: Booking.com : 호텔: 제주도 . 지금 바로 예약하세요!" sap:VirtualizedContainerService.HintSize="433.6,468.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="cdf068f2-4b1a-4fb8-be4f-13824f426457" Version="V2">
+            <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Browser Chrome: 입찰공고 | 서울특별시" sap:VirtualizedContainerService.HintSize="630.4,1045.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="cdf068f2-4b1a-4fb8-be4f-13824f426457" Version="V2">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="375.2,252" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                  <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="596.8,828.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[Excel.Sheet(&quot;Sheet1&quot;).DataTableOutValue]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='호텔명'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='가격'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='NumberColumnFormat' DecimalSeparator='.' ThousandsSeparator=',' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column2' Name='평점'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='NumberColumnFormat' DecimalSeparator='.' ThousandsSeparator=',' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column4' Name='호텔링크Url'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;true&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='text'&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='h3' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column1' attr='text'&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column2' attr='text'&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column4' attr='href'&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='img' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NExtractData_1" MaximumResults="0" Version="V1">
-                      <uix:NExtractData.NextLink>
-                        <uix:TargetAnchorable BrowserURL="https://www.booking.com/searchresults.ko.html?ss=%EC%A0%9C%EC%A3%BC%EB%8F%84&amp;ssne=%EC%A0%9C%EC%A3%BC%EB%8F%84&amp;ssne_untouched=%EC%A0%9C%EC%A3%BC%EB%8F%84&amp;label=gen173nr-1FCAEoggI46AdIM1gEaH2IAQGYARe4ARfIAQzYAQHoAQH4AQuIAgGoAgO4Ao_ZupoGwAIB0gIkYWQ2ZjExNDMtZGYzNi00OTExLTg1NTAtZTk1NWUyZDE1ZTgw2AIG4AIB&amp;sid=a173ad017a42a79767a69c10bab598fb&amp;aid=304142&amp;lang=ko&amp;sb=1&amp;src_elem=sb&amp;src=searchresults&amp;dest_id=4170&amp;dest_type=region&amp;checkin=2022-11-10&amp;checkout=2022-11-13&amp;group_adults=2&amp;no_rooms=1&amp;group_children=2&amp;age=13&amp;age=16&amp;sb_travel_purpose=leisure" DesignTimeRectangle="996, 819, 33, 30" ElementType="Button" FriendlyName="'BUTTON'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;nav&amp;gt;div&amp;gt;div&amp;gt;button' idx='2' parentid='search_results_table' tag='BUTTON' type='button' /&gt;" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl class='fc63351294 f9c5690c58' aaname='' parentid='search_results_table' tag='BUTTON' type='button' /&gt;" Guid="2d1e9176-6cee-4d6c-88fd-c7057cffa431" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACUAAAAiCAYAAADYmxC7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACNSURBVFhH7dShDYBADIVhNoDNGAE2QMMuWCxbYFEIBI4R8CVN7vwLfSQn3u966kvaXGUFJhSaUGhCoQmFJhSaUGghVDsf1i9nmniFUPv9WD1udFh4fX/AKDfFhtEOPcOG9Uov36OimqkgVAZ1payPDfJCqD9AXgjlnycb5NEOnZlQaEKhCYUmFJpQWGYvc9x35hS6EOcAAAAASUVORK5CYII=" InformativeScreenshot="577c3fa7805d92f88e57c9b06ace6edd.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Booking.com : 호텔: 제주도 . 지금 바로 예약하세요!' /&gt;" SearchSteps="Selector, Image" Visibility="Interactive">
-                          <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                              <uix:Target DesignTimeRectangle="1002, 824, 20, 20" ElementType="Icon" FriendlyName="'SVG'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;nav&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;span&amp;gt;svg' idx='2' parentid='search_results_table' tag='svg' /&gt;" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl type='' class='' parentid='search_results_table' tag='svg' aaname='' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAABzSURBVEhLY/hPYzBqAUEwagFBMDgs8J979X/CsptQHmmAKAvOP/nyn7/yGFmWEB1E5FpCUhyQYwnJkQyzJH/9XagIfkCWBQJVNLIAZng8LYKIHMNBgCgLyDUcBIiyAJTRyDEcBEiOZFLBqAUEwVC34P9/ABYa2ek7QQsuAAAAAElFTkSuQmCC" SearchSteps="Selector, Image" />
+                    <uix:NForEachUiElement DisplayName="For Each UiElement" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='CurrentElement'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column2' Name='CurrentLabel_2'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='tr' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='text'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='2' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column2' attr='text'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='3' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="555.2,641.6" sap2010:WorkflowViewState.IdRef="NForEachUiElement_2" MaximumResults="0" ScopeIdentifier="cdf068f2-4b1a-4fb8-be4f-13824f426457" Version="V1">
+                      <uix:NForEachUiElement.Body>
+                        <ActivityAction x:TypeArguments="x:Int32">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="492,374.4" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="450.4,280" sap2010:WorkflowViewState.IdRef="IfElseIf_1">
+                              <ui:IfElseIf.ConditionBlocks>
+                                <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
+                                  <ui:IfElseIfBlock BlockType="If" Condition="[CurrentElement_Label.Contains(&quot;구축&quot;)]">
+                                    <ui:IfElseIfBlock.Then>
+                                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="200,84.8" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </Sequence>
+                                    </ui:IfElseIfBlock.Then>
+                                  </ui:IfElseIfBlock>
+                                </sc:BindingList>
+                              </ui:IfElseIf.ConditionBlocks>
+                            </ui:IfElseIf>
+                          </Sequence>
+                        </ActivityAction>
+                      </uix:NForEachUiElement.Body>
+                      <uix:NForEachUiElement.Filter>
+                        <uuam:FilterArgument LogicalOperator="And">
+                          <uuam:FilterArgument.Filters>
+                            <scg:List x:TypeArguments="uuam:FilterEntryArgument" Capacity="4">
+                              <uuam:FilterEntryArgument Criterion="Column2" Operator="Contains" Value="미술" />
                             </scg:List>
-                          </uix:TargetAnchorable.Anchors>
-                        </uix:TargetAnchorable>
-                      </uix:NExtractData.NextLink>
-                      <uix:NExtractData.Target>
-                        <uix:TargetAnchorable BrowserURL="https://www.booking.com/searchresults.ko.html?label=gen173nr-1FCAEoggI46AdIM1gEaH2IAQGYARe4ARfIAQzYAQHoAQH4AQuIAgGoAgO4Ao_ZupoGwAIB0gIkYWQ2ZjExNDMtZGYzNi00OTExLTg1NTAtZTk1NWUyZDE1ZTgw2AIG4AIB&amp;sid=a173ad017a42a79767a69c10bab598fb&amp;aid=304142&amp;ss=%EC%A0%9C%EC%A3%BC%EB%8F%84&amp;ssne=%EC%A0%9C%EC%A3%BC%EB%8F%84&amp;ssne_untouched=%EC%A0%9C%EC%A3%BC%EB%8F%84&amp;lang=ko&amp;sb=1&amp;src_elem=sb&amp;src=searchresults&amp;dest_id=4170&amp;dest_type=region&amp;checkin=2022-11-10&amp;checkout=2022-11-13&amp;group_adults=2&amp;no_rooms=1&amp;group_children=2&amp;age=13&amp;age=16&amp;sb_travel_purpose=leisure&amp;offset=25" DesignTimeRectangle="629, -7554, 1018, 8415" FriendlyName="'보이는 순서:'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='search_results_table' tag='DIV' /&gt;" Guid="2ba0fdf2-cdea-45b1-97c9-a143208bace6" InformativeScreenshot="6e3913193265f9da4a0e978bc0b0c7b8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Booking.com : 호텔: 제주도 . 지금 바로 예약하세요!' /&gt;" SearchSteps="Selector" Visibility="Interactive" />
-                      </uix:NExtractData.Target>
-                    </uix:NExtractData>
+                          </uuam:FilterArgument.Filters>
+                        </uuam:FilterArgument>
+                      </uix:NForEachUiElement.Filter>
+                      <uix:NForEachUiElement.Target>
+                        <uix:TargetAnchorable DesignTimeRectangle="539, 541, 1140, 716" FriendlyName="'12587[제안요청서 사전규격공개]2022년'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tag='TBODY' /&gt;" Guid="820bb5c0-3d47-45f0-a5f5-2c9e6dc94d37" InformativeScreenshot="c94e1c2bfe459584c8f7dc74990ba664.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='입찰공고 | 서울특별시' /&gt;" SearchSteps="Selector" Visibility="Interactive" />
+                      </uix:NForEachUiElement.Target>
+                      <uix:NForEachUiElement.Variables>
+                        <Variable x:TypeArguments="ui:UiElement" Name="CurrentElement" />
+                        <Variable x:TypeArguments="x:String" Name="CurrentElement_Label" />
+                        <Variable x:TypeArguments="x:String" Name="CurrentLabel_2" />
+                      </uix:NForEachUiElement.Variables>
+                      <uix:NForEachUiElement.VariablesMetadata>
+                        <scg:List x:TypeArguments="uuam:VariableMetadata" x:Key="Column0" Capacity="4">
+                          <uuam:VariableMetadata Name="CurrentElement" Type="ui:UiElement" />
+                          <uuam:VariableMetadata Name="CurrentElement_Label" Type="x:String" />
+                        </scg:List>
+                        <scg:List x:TypeArguments="uuam:VariableMetadata" x:Key="Column2" Capacity="4">
+                          <uuam:VariableMetadata Name="CurrentLabel_2" Type="x:String" />
+                        </scg:List>
+                      </uix:NForEachUiElement.VariablesMetadata>
+                    </uix:NForEachUiElement>
+                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="555.2,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                      <ui:CommentOut.Body>
+                        <Sequence DisplayName="무시된 액티비티" sap:VirtualizedContainerService.HintSize="404.8,516.8" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NForEachUiElement DisplayName="For Each UiElement" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='CurrentElement'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='CurrentLabel_1'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column2' Name='CurrentLabel_2'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='tr' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='text'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='2' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column1' attr='text'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='3' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column2' attr='text'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='4' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="363.2,424" sap2010:WorkflowViewState.IdRef="NForEachUiElement_1" LimitExtractionTo="Rows" MaximumResults="4" ScopeIdentifier="cdf068f2-4b1a-4fb8-be4f-13824f426457" Version="V1">
+                            <uix:NForEachUiElement.Body>
+                              <ActivityAction x:TypeArguments="x:Int32">
+                                <ActivityAction.Argument>
+                                  <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+                                </ActivityAction.Argument>
+                                <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="272,156.8" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="230.4,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[CurrentIndex.ToString + &quot; 제목 : &quot; + CurrentElement_Label + &quot;, 담당부서 : &quot; + CurrentLabel_1 + &quot;, 등록일 : &quot; + CurrentLabel_2]" />
+                                </Sequence>
+                              </ActivityAction>
+                            </uix:NForEachUiElement.Body>
+                            <uix:NForEachUiElement.Filter>
+                              <uuam:FilterArgument LogicalOperator="And">
+                                <uuam:FilterArgument.Filters>
+                                  <scg:List x:TypeArguments="uuam:FilterEntryArgument" Capacity="4">
+                                    <uuam:FilterEntryArgument Criterion="Column1" Operator="Contains" Value="정책과" />
+                                  </scg:List>
+                                </uuam:FilterArgument.Filters>
+                              </uuam:FilterArgument>
+                            </uix:NForEachUiElement.Filter>
+                            <uix:NForEachUiElement.NextLink>
+                              <uix:TargetAnchorable BrowserURL="https://www.seoul.go.kr/news/news_tender.do#list/1" DesignTimeRectangle="1440, 719, 50, 50" ElementType="Text" FriendlyName="'다음'" FullSelectorArgument="&lt;webctrl aaname='다음' parentid='seoul-integrated-board' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='다음' parentid='seoul-integrated-board' tag='A' type='' class='sib-paging-next' check:innerText='다음' /&gt;" Guid="d9b92de7-d77d-403f-aa34-4f2deba58b44" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADYAAAA2CAYAAACMRWrdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEVSURBVGhD7dEhy4RAEMbx9+MbtBptmrSbDIpNRMGiSVHQL6BJmWOXuYMLl95xl5H5w4R92o/9g4cmMG59YFVVPeLefcG4JzBuCYxbAuOWwLglMG4JjFsC45bAuCUwqo7jgHme8XVfxmF934PjOFDXNS73ZBymyrJM47quw4U+KzBVnucaNwwDLrRZg6mKotC4pmlwocsqTJWmqcZN04QLTdZhqrIsNa5tW1z+n3XYuq4aFUURLjRZhe37Dp7nQRiGcF0XrjRZgy3Lon8qSRJcaLMCO89To3zfx4U+47Bt28B1XYjjGJd7Mg4bxxGCIMDXfRmHmUpg3BIYtwTGLYFxS2DcEhi3BMYtgXHrJ+wJ9+4De1YAL+UK0VGDt5owAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='chrome.exe' title='입찰공고 | 서울특별시' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive" />
+                            </uix:NForEachUiElement.NextLink>
+                            <uix:NForEachUiElement.Target>
+                              <uix:TargetAnchorable DesignTimeRectangle="539, 2, 1140, 601" FriendlyName="'12585[제안요청서 사전규격공고]'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tag='TBODY' /&gt;" Guid="56b6f4b9-886a-44f7-9fa0-2df08867795f" InformativeScreenshot="681da67dccfe4bf1c8aaa9e0275a15a3.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='입찰공고 | 서울특별시' /&gt;" SearchSteps="Selector" Visibility="Interactive" />
+                            </uix:NForEachUiElement.Target>
+                            <uix:NForEachUiElement.Variables>
+                              <Variable x:TypeArguments="ui:UiElement" Name="CurrentElement" />
+                              <Variable x:TypeArguments="x:String" Name="CurrentElement_Label" />
+                              <Variable x:TypeArguments="x:String" Name="CurrentLabel_1" />
+                              <Variable x:TypeArguments="x:String" Name="CurrentLabel_2" />
+                            </uix:NForEachUiElement.Variables>
+                            <uix:NForEachUiElement.VariablesMetadata>
+                              <scg:List x:TypeArguments="uuam:VariableMetadata" x:Key="Column0" Capacity="4">
+                                <uuam:VariableMetadata Name="CurrentElement" Type="ui:UiElement" />
+                                <uuam:VariableMetadata Name="CurrentElement_Label" Type="x:String" />
+                              </scg:List>
+                              <scg:List x:TypeArguments="uuam:VariableMetadata" x:Key="Column1" Capacity="4">
+                                <uuam:VariableMetadata Name="CurrentLabel_1" Type="x:String" />
+                              </scg:List>
+                              <scg:List x:TypeArguments="uuam:VariableMetadata" x:Key="Column2" Capacity="4">
+                                <uuam:VariableMetadata Name="CurrentLabel_2" Type="x:String" />
+                              </scg:List>
+                            </uix:NForEachUiElement.VariablesMetadata>
+                          </uix:NForEachUiElement>
+                        </Sequence>
+                      </ui:CommentOut.Body>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ui:CommentOut>
                   </Sequence>
                 </ActivityAction>
               </uix:NApplicationCard.Body>
               <uix:NApplicationCard.TargetApp>
-                <uix:TargetApp Area="1911, -9, 2578, 1398" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACZSURBVDhPYwABkZCZ/xlMG0jCYD3kaoZhiCFYJEjCyJwJy0/833PqLhyD+ARdiMz58+cvVoysBgMjc9A1wPgglyCrQ8HIHHQDQN4A8R0yFsDFMDAyB2YAOkZWg4GROdg0gzDJLoDxQX4H8ckOA5gBoLAA8UFRKj3tChjD1BDlBZgLYJpJMgDZ+QRdQBbGKkgkpigzQTQzMAAAgK8pu3KDGtoAAAAASUVORK5CYII=" InformativeScreenshot="84b95bfda23b62abd4d495675bd84b46.png" Selector="&lt;html app='chrome.exe' title='Booking.com : 호텔: 제주도 . 지금 바로 예약하세요!' /&gt;" Url="https://www.booking.com/searchresults.ko.html?ss=%EC%A0%9C%EC%A3%BC%EB%8F%84&amp;ssne=%EC%A0%9C%EC%A3%BC%EB%8F%84&amp;ssne_untouched=%EC%A0%9C%EC%A3%BC%EB%8F%84&amp;label=gen173nr-1FCAEoggI46AdIM1gEaH2IAQGYARe4ARfIAQzYAQHoAQH4AQuIAgGoAgO4Ao_ZupoGwAIB0gIkYWQ2ZjExNDMtZGYzNi00OTExLTg1NTAtZTk1NWUyZDE1ZTgw2AIG4AIB&amp;sid=a173ad017a42a79767a69c10bab598fb&amp;aid=304142&amp;lang=ko&amp;sb=1&amp;src_elem=sb&amp;src=searchresults&amp;dest_id=4170&amp;dest_type=region&amp;checkin=2022-11-10&amp;checkout=2022-11-13&amp;group_adults=2&amp;no_rooms=1&amp;group_children=2&amp;age=13&amp;age=16&amp;sb_travel_purpose=leisure" />
+                <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAR+SURBVFhHxdZtbFNVHAbw/6ayrh0rgziNJiCJcb7gtrZ0XRkzGxtsbWWBEGckIogQg2xEwqLxBSabC9N2fbmFzSlETdQQBPxAoh/MnGOumwgoGwga0MSg8SUaY+K7sT7/u3uau3tPS2dI+PBLu/X0Ps8999zTS8lk8opKvalU/FLl/QHqCNRQIt9D7xVVppUocFDIsY5ywqeJQqeIgp+w2eDW3rMC8f6yF2BjtnJqXhUkin8uAnOhHRrABvNALXE5C1wl3g/ZK9TX27a+RRQ7K0qUwSDcA7WwHCzTKtDplxawwR6YgCFYAzRqc9DeklVk6T5B1DMuSrwLW2A1tMKd2Rd4MUDbV9TSqGVKASsMQNKgBuhYfiktW9NHpJwTBTrgTXga4tCedQFXb4BWPtlAAzjw4KxUgTYt0Og45I1iLQQdDxJFziBcXZAPwTjshE54JesCzNUXoH53NY1Y1VmwwHktUGb9kN1NR66vJfvOYVyGCS6wEb6AKCiwb1oFnC8E6N62ZXR0podn4TqE/GII1evlxfjOtXfR7PYhorBa4ClIwtfwMpyfVgHIdaDErqU1NJbnyUMILzxZOGvi2zFaej/l8CKc3BMGtAK/whgcy6aADVbDCJxy7/Y/5o356SVXNd8RTQj61xDM9h8tdNMHM11U3nJA3Io18A9wAfYDXHIGyuAkJPUW9gaUxWEfvbpgMSWsnrUIHIYf4SI8myhwzhic5SEf3wFRNbwQzmrBwp9wJFOBeviZA2WcfYGWul2NdHj+IrE3FCPU/qG1jPbP9ZGzFWce/4zD8+GQFmrUna7ADfCTCJP4HT7GenAs39FAB26uoo/ynJTA5tO9cAMVdY6Ie/8WGNEF6v0NLlmBHHhNC8pkAjbjzrAseb6enqlfSd6Nb0yu9shpPuuHga+zLJx1QSpXX+ABXYjeVxCHYd3/uryKr6Bit48s8UO43hd4td+KAx/XBcl8CWl/jFp1AYynezvMAf48FzbDb/BtlVI/9/ZoC6b7U57yR+B7kIUKF8EFPF5awAo7oB82QTnw/41KKxXflmql2j8v0oWDnWvWAjLh9bAA1HAmK5CRV2mkRcpSqlKW4O9GKom20dXBsToKjv+FA8pChbdhDqTC2TQK+BBaRxVKE5XG1qvBhT2HcZAzMyg4cQIHk4WyP2AbTAkWsiqAhaae9fxIB+WHBvFF3lb5mqvXfSvIghlfb94B1TCZrArwmd8YjuILvLGkflpZMXwHsnDe6e4GMVbqkgX4WpdEt2Ewn23qyUbwgiycPQrG8SYZC/C0u2LNdE0ogcF4yjUfYAPIwi8Ab0ay70yRtoBXacCrj+w9BzEw9WBpFAJZAf6tl403SVNgcsUXh/sxSP1BSScCsgKPg2y8ibRAlVJLN0U6MYDPPLXgZJ4DWQF1n8+GqQBf9zuimyhHHWBadEYrQFbg/18CZ+w+7GxpF51REXwDxgIHQTbexFSgLLZO+zDj1OuFwVjgCZCNNZEUWIvpP4kPsy7Aj1uvgwh/H3iDko01MRW4MpL0H9UQM0PB2WBoAAAAAElFTkSuQmCC" InformativeScreenshot="5b158fed07d9ca4dfbd00a2ac1c828c0.png" Selector="&lt;html app='chrome.exe' title='입찰공고 | 서울특별시' /&gt;" Url="https://www.seoul.go.kr/news/news_tender.do#list/1" />
               </uix:NApplicationCard.TargetApp>
             </uix:NApplicationCard>
           </Sequence>
